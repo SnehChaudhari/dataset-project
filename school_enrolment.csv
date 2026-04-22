@@ -1,0 +1,301 @@
+student_id,first_name,last_name,year_level,course,course_level,teacher,room,term
+10075,Chris,King,13,Software Engineering,2,Teacher20,R10,T4
+10148,Chris,Brown,11,Calculus,1,Teacher17,R1,T4
+10255,Aroha,Williams,11,Economics,2,Teacher16,R7,T4
+10233,Sophie,Lee,11,Economics,3,Teacher1,R8,T3
+10318,Hana,Scott,11,Software Engineering,1,Teacher10,R2,T3
+10019,Sam,Scott,11,Economics,3,Teacher20,R11,T1
+10026,Jordan,Patel,11,Calculus,3,Teacher19,R20,T2
+10234,Leo,Chen,11,Software Engineering,2,Teacher21,R12,T4
+10035,Sophie,Scott,13,Software Engineering,2,Teacher31,R5,T1
+10356,Casey,Chen,13,Art,3,Teacher14,R23,T2
+10314,Jamie,Brown,13,Economics,1,Teacher31,R24,T3
+10219,Isla,Scott,12,Physics,3,Teacher23,R5,T4
+10267,Aroha,Lee,11,Economics,1,Teacher19,R7,T1
+10061,Alex,Lee,13,Software Engineering,3,Teacher14,R20,T4
+10212,Jamie,Chen,12,Economics,3,Teacher14,R1,T2
+10354,Avery,Ngata,11,Physics,2,Teacher33,R18,T3
+10393,Alex,Brown,13,Physics,2,Teacher26,R24,T1
+10090,Morgan,Chen,12,Art,2,Teacher3,R21,T2
+10247,Sam,Kaur,12,Economics,2,Teacher30,R14,T1
+10267,Avery,Thompson,13,Physics,3,Teacher35,R1,T2
+10296,Noah,King,12,Software Engineering,1,Teacher18,R1,T3
+10193,Hana,Scott,11,Economics,3,Teacher25,R6,T1
+10385,Avery,Ali,12,Software Engineering,2,Teacher27,R3,T4
+10122,Liam,Lee,12,Calculus,3,Teacher20,R6,T1
+10192,Jamie,King,11,Software Engineering,2,Teacher33,R1,T4
+10257,Sam,Taylor,12,Art,3,Teacher34,R10,T3
+10074,Jordan,Scott,13,Calculus,1,Teacher3,R15,T4
+10366,Wiremu,Brown,11,Physics,1,Teacher6,R11,T4
+10024,Jordan,Williams,13,Physics,1,Teacher20,R21,T2
+10165,Morgan,Taylor,12,Physics,3,Teacher21,R25,T4
+10344,Jordan,Ngata,11,Calculus,2,Teacher8,R1,T1
+10106,Hana,Chen,13,Physics,2,Teacher10,R23,T3
+10294,Riley,Wilson,11,Physics,3,Teacher22,R18,T4
+10026,Sam,Smith,12,Software Engineering,1,Teacher25,R2,T1
+10219,Mia,Wilson,13,Economics,3,Teacher29,R20,T3
+10160,Noah,Scott,11,Economics,1,Teacher30,R19,T2
+10048,Jack,Brown,12,Physics,3,Teacher30,R16,T2
+10115,Sam,Scott,13,Physics,2,Teacher26,R6,T3
+10167,Jack,Lee,11,Software Engineering,2,Teacher8,R12,T4
+10237,Chris,Ngata,12,Economics,3,Teacher9,R17,T1
+10208,Jordan,Chen,13,Software Engineering,2,Teacher35,R15,T4
+10303,Sophie,Taylor,13,Calculus,3,Teacher11,R16,T4
+10034,Noah,Taylor,13,Economics,2,Teacher28,R19,T3
+10279,Riley,Wilson,13,Software Engineering,3,Teacher32,R4,T4
+10167,Hana,Brown,12,Calculus,2,Teacher26,R3,T1
+10351,Isla,King,12,Physics,2,Teacher4,R3,T2
+10072,Leo,King,13,Software Engineering,1,Teacher10,R15,T3
+10200,Isla,Thompson,12,Calculus,1,Teacher21,R10,T3
+10223,Liam,Brown,13,Software Engineering,3,Teacher33,R13,T2
+10151,Jamie,Chen,13,Software Engineering,1,Teacher23,R4,T3
+10016,Riley,Patel,13,Economics,2,Teacher21,R23,T4
+10208,Mia,Patel,13,Calculus,3,Teacher12,R16,T2
+10097,Hana,Patel,12,Art,1,Teacher19,R22,T2
+10069,Alex,Brown,13,Software Engineering,1,Teacher32,R22,T4
+10070,Taylor,Wilson,13,Art,2,Teacher28,R20,T2
+10233,Wiremu,Patel,13,Art,2,Teacher23,R8,T2
+10218,Isla,Smith,13,Art,3,Teacher16,R23,T3
+10211,Hana,Thompson,12,Software Engineering,1,Teacher31,R23,T3
+10058,Leo,Lee,13,Software Engineering,1,Teacher34,R25,T3
+10239,Wiremu,Brown,13,Economics,1,Teacher16,R16,T1
+10351,Hana,King,13,Physics,3,Teacher4,R11,T1
+10241,Jack,Williams,12,Economics,3,Teacher22,R14,T3
+10151,Avery,Wilson,11,Economics,3,Teacher20,R24,T3
+10032,Aroha,Thompson,11,Economics,1,Teacher19,R24,T1
+10147,Aroha,Brown,11,Economics,1,Teacher18,R9,T2
+10316,Casey,Ngata,12,Software Engineering,3,Teacher8,R20,T2
+10303,Sam,Kaur,12,Physics,1,Teacher17,R23,T2
+10249,Chris,King,13,Software Engineering,2,Teacher6,R5,T2
+10254,Sophie,King,12,Calculus,3,Teacher29,R24,T2
+10108,Leo,Ali,12,Software Engineering,3,Teacher17,R25,T1
+10027,Chris,Lee,12,Art,2,Teacher31,R24,T2
+10195,Mia,Lee,12,Calculus,3,Teacher28,R1,T3
+10230,Mia,Kaur,12,Economics,3,Teacher3,R4,T3
+10222,Isla,Kaur,12,Physics,2,Teacher18,R4,T3
+10336,Leo,Patel,12,Calculus,3,Teacher13,R17,T3
+10347,Chris,Chen,13,Software Engineering,3,Teacher1,R3,T1
+10211,Jordan,Williams,11,Art,2,Teacher15,R24,T3
+10129,Morgan,Smith,11,Economics,1,Teacher4,R20,T2
+10307,Jordan,Ali,11,Software Engineering,3,Teacher9,R13,T2
+10057,Chris,Ngata,12,Art,3,Teacher5,R21,T4
+10142,Sophie,Ali,13,Physics,2,Teacher11,R25,T1
+10142,Jamie,Patel,12,Physics,1,Teacher17,R9,T2
+10226,Taylor,Lee,11,Economics,2,Teacher12,R21,T4
+10056,Sam,Williams,12,Calculus,3,Teacher7,R15,T3
+10053,Jamie,Brown,11,Economics,3,Teacher17,R25,T4
+10010,Aroha,Wilson,13,Software Engineering,1,Teacher25,R9,T2
+10359,Noah,Patel,13,Software Engineering,3,Teacher32,R16,T4
+10207,Taylor,Williams,11,Software Engineering,2,Teacher31,R4,T3
+10171,Avery,Patel,11,Software Engineering,2,Teacher35,R11,T1
+10236,Avery,Kaur,11,Calculus,3,Teacher3,R13,T2
+10154,Mia,Brown,13,Physics,2,Teacher6,R21,T4
+10377,Morgan,Wilson,11,Calculus,1,Teacher16,R16,T4
+10033,Hana,Kaur,12,Art,3,Teacher29,R1,T1
+10174,Jamie,Chen,13,Software Engineering,2,Teacher8,R7,T4
+10348,Hana,Wilson,13,Economics,1,Teacher5,R2,T2
+10251,Alex,Lee,13,Software Engineering,1,Teacher9,R1,T2
+10324,Jamie,Ngata,11,Art,3,Teacher11,R19,T1
+10055,Jordan,Lee,13,Economics,1,Teacher5,R7,T4
+10173,Mia,Chen,11,Economics,3,Teacher9,R11,T2
+10392,Jamie,Thompson,11,Physics,1,Teacher8,R9,T2
+10388,Sophie,Wilson,13,Physics,3,Teacher11,R15,T2
+10298,Jamie,Wilson,11,Economics,2,Teacher11,R1,T4
+10042,Alex,Smith,11,Software Engineering,3,Teacher19,R14,T4
+10355,Sam,Taylor,11,Physics,3,Teacher29,R14,T2
+10090,Isla,Ali,11,Economics,1,Teacher32,R20,T1
+10322,Avery,Chen,12,Software Engineering,3,Teacher16,R7,T1
+10272,Jordan,Thompson,12,Economics,3,Teacher15,R15,T2
+10142,Jamie,Taylor,11,Calculus,3,Teacher31,R16,T2
+10082,Jamie,Smith,13,Physics,2,Teacher14,R14,T3
+10172,Isla,King,12,Software Engineering,1,Teacher4,R18,T2
+10081,Alex,Lee,13,Software Engineering,1,Teacher16,R24,T4
+10304,Leo,Chen,12,Calculus,3,Teacher21,R8,T1
+10167,Riley,Brown,11,Art,1,Teacher25,R8,T1
+10242,Leo,Lee,11,Art,1,Teacher14,R20,T4
+10092,Mia,Chen,11,Art,3,Teacher13,R21,T3
+10139,Morgan,Chen,11,Software Engineering,3,Teacher4,R9,T2
+10057,Jack,Lee,12,Calculus,2,Teacher15,R10,T2
+10327,Isla,Wilson,13,Economics,1,Teacher6,R14,T4
+10111,Leo,Lee,12,Physics,1,Teacher28,R24,T2
+10127,Noah,Patel,13,Calculus,3,Teacher10,R19,T1
+10214,Jamie,Smith,12,Economics,1,Teacher28,R17,T4
+10246,Jordan,Lee,12,Calculus,1,Teacher1,R23,T4
+10112,Sam,Chen,12,Calculus,3,Teacher6,R1,T4
+10343,Avery,Wilson,13,Art,3,Teacher2,R15,T4
+10396,Sam,Scott,13,Art,1,Teacher24,R21,T4
+10361,Alex,Scott,13,Software Engineering,2,Teacher22,R17,T1
+10152,Sophie,King,12,Economics,3,Teacher14,R22,T1
+10318,Noah,Ali,11,Economics,3,Teacher24,R2,T1
+10197,Liam,Lee,13,Software Engineering,2,Teacher24,R6,T1
+10288,Morgan,Wilson,12,Calculus,3,Teacher8,R21,T4
+10378,Leo,Scott,13,Calculus,3,Teacher15,R11,T3
+10137,Wiremu,Kaur,12,Physics,1,Teacher5,R12,T3
+10232,Aroha,Williams,13,Software Engineering,2,Teacher35,R22,T3
+10232,Isla,Chen,13,Software Engineering,1,Teacher30,R3,T1
+10201,Chris,Ngata,11,Software Engineering,1,Teacher18,R4,T2
+10255,Sam,Scott,11,Economics,3,Teacher2,R10,T4
+10350,Hana,Wilson,12,Physics,2,Teacher29,R24,T1
+10150,Morgan,Brown,11,Calculus,3,Teacher22,R14,T3
+10336,Noah,Lee,13,Economics,3,Teacher29,R15,T3
+10291,Sam,King,12,Calculus,2,Teacher15,R16,T3
+10148,Jamie,Wilson,12,Physics,2,Teacher11,R20,T2
+10365,Hana,Ngata,11,Calculus,3,Teacher10,R6,T2
+10060,Jamie,Chen,13,Calculus,2,Teacher17,R12,T2
+10106,Hana,Ali,11,Physics,2,Teacher10,R12,T4
+10277,Chris,Williams,12,Software Engineering,1,Teacher26,R16,T2
+10235,Noah,Wilson,11,Economics,3,Teacher22,R21,T3
+10243,Avery,King,13,Calculus,3,Teacher29,R11,T1
+10375,Aroha,Smith,11,Economics,1,Teacher20,R1,T4
+10317,Riley,Lee,12,Software Engineering,2,Teacher4,R20,T2
+10299,Wiremu,Taylor,12,Calculus,1,Teacher6,R18,T4
+10347,Taylor,Williams,12,Calculus,2,Teacher21,R20,T1
+10342,Liam,Patel,11,Art,2,Teacher25,R12,T1
+10146,Liam,Chen,12,Art,3,Teacher6,R7,T4
+10380,Sophie,King,12,Physics,1,Teacher28,R24,T4
+10072,Leo,Thompson,11,Calculus,1,Teacher20,R16,T3
+10034,Leo,King,12,Software Engineering,1,Teacher27,R21,T3
+10213,Chris,Williams,12,Economics,1,Teacher13,R6,T4
+10149,Hana,Lee,11,Physics,3,Teacher20,R16,T4
+10115,Alex,King,11,Calculus,2,Teacher20,R21,T4
+10064,Avery,Patel,11,Art,3,Teacher16,R1,T1
+10392,Casey,Lee,11,Economics,3,Teacher24,R19,T4
+10290,Sophie,Scott,12,Art,3,Teacher8,R12,T1
+10133,Chris,Thompson,11,Calculus,2,Teacher30,R23,T2
+10183,Chris,Smith,12,Physics,2,Teacher23,R2,T3
+10150,Wiremu,Kaur,11,Economics,1,Teacher12,R25,T1
+10307,Chris,Williams,12,Physics,3,Teacher20,R9,T3
+10050,Hana,Thompson,12,Calculus,1,Teacher9,R17,T3
+10191,Aroha,Patel,12,Calculus,1,Teacher14,R5,T2
+10097,Hana,Thompson,13,Economics,3,Teacher8,R14,T4
+10040,Jordan,Scott,11,Software Engineering,2,Teacher23,R10,T3
+10072,Jack,Thompson,13,Physics,1,Teacher20,R1,T1
+10114,Sam,Scott,13,Calculus,3,Teacher15,R10,T2
+10108,Sam,Brown,12,Software Engineering,1,Teacher2,R25,T4
+10388,Sophie,Smith,11,Software Engineering,1,Teacher33,R19,T1
+10241,Jordan,Ngata,11,Software Engineering,2,Teacher1,R25,T1
+10064,Isla,Taylor,13,Calculus,1,Teacher23,R1,T1
+10075,Casey,Thompson,12,Physics,1,Teacher33,R25,T2
+10259,Leo,Brown,11,Economics,1,Teacher34,R7,T2
+10145,Chris,King,13,Software Engineering,3,Teacher7,R7,T4
+10188,Leo,Wilson,12,Software Engineering,1,Teacher23,R13,T4
+10110,Wiremu,Taylor,12,Software Engineering,2,Teacher8,R15,T1
+10267,Sam,Lee,12,Physics,3,Teacher3,R3,T3
+10253,Jordan,Patel,12,Art,3,Teacher20,R22,T4
+10116,Hana,Patel,12,Art,1,Teacher5,R16,T3
+10092,Alex,Kaur,12,Software Engineering,2,Teacher29,R17,T1
+10062,Sam,Patel,12,Economics,1,Teacher11,R3,T3
+10102,Noah,Taylor,13,Art,1,Teacher15,R14,T4
+10143,Leo,Thompson,12,Art,2,Teacher31,R22,T4
+10249,Wiremu,Ngata,11,Art,1,Teacher8,R9,T4
+10255,Riley,Kaur,11,Software Engineering,1,Teacher4,R3,T4
+10348,Alex,Wilson,12,Economics,3,Teacher21,R5,T3
+10319,Isla,Brown,11,Economics,2,Teacher30,R7,T3
+10339,Aroha,Lee,13,Physics,3,Teacher22,R18,T1
+10392,Jamie,Patel,11,Art,2,Teacher21,R13,T4
+10236,Jamie,Smith,11,Economics,3,Teacher20,R23,T2
+10252,Sophie,Wilson,12,Art,2,Teacher8,R19,T4
+10338,Hana,Kaur,13,Economics,2,Teacher31,R18,T2
+10260,Jamie,Patel,12,Art,3,Teacher25,R20,T3
+10393,Avery,Chen,11,Software Engineering,3,Teacher3,R5,T3
+10179,Leo,Smith,13,Physics,2,Teacher7,R14,T3
+10183,Sophie,Chen,11,Calculus,1,Teacher16,R21,T3
+10304,Taylor,Ali,11,Physics,1,Teacher22,R6,T1
+10276,Noah,Smith,12,Art,3,Teacher33,R14,T3
+10011,Aroha,Thompson,11,Physics,2,Teacher25,R11,T1
+10251,Jordan,Ali,13,Calculus,2,Teacher32,R17,T3
+10086,Isla,Ngata,12,Art,1,Teacher32,R21,T1
+10275,Morgan,Ngata,12,Software Engineering,2,Teacher26,R8,T1
+10368,Leo,Brown,13,Physics,2,Teacher5,R19,T4
+10219,Morgan,Chen,11,Physics,3,Teacher20,R14,T3
+10103,Sophie,Patel,12,Economics,3,Teacher30,R22,T2
+10010,Wiremu,Scott,11,Economics,2,Teacher14,R22,T4
+10138,Hana,King,13,Art,3,Teacher4,R17,T2
+10187,Jack,Wilson,11,Calculus,3,Teacher20,R14,T4
+10164,Taylor,Kaur,11,Art,2,Teacher19,R21,T2
+10132,Isla,Taylor,12,Calculus,1,Teacher10,R7,T1
+10126,Avery,Lee,12,Economics,2,Teacher28,R21,T1
+10104,Chris,Ngata,11,Software Engineering,2,Teacher18,R22,T2
+10330,Jamie,Ali,12,Software Engineering,1,Teacher6,R11,T3
+10033,Sophie,Chen,13,Software Engineering,2,Teacher9,R8,T1
+10293,Wiremu,Brown,13,Economics,3,Teacher17,R16,T1
+10122,Isla,Brown,12,Physics,3,Teacher25,R24,T2
+10217,Morgan,Wilson,11,Calculus,1,Teacher18,R15,T4
+10131,Leo,Smith,12,Economics,2,Teacher8,R11,T4
+10244,Riley,Ngata,11,Physics,2,Teacher24,R10,T1
+10331,Isla,Smith,13,Software Engineering,3,Teacher16,R9,T4
+10159,Liam,King,13,Software Engineering,3,Teacher16,R15,T4
+10005,Mia,Ngata,12,Software Engineering,1,Teacher20,R7,T2
+10225,Noah,King,13,Art,1,Teacher18,R3,T4
+10242,Sophie,Scott,12,Art,1,Teacher11,R23,T3
+10260,Taylor,Chen,12,Economics,3,Teacher21,R15,T1
+10391,Jamie,Kaur,13,Calculus,3,Teacher29,R21,T2
+10002,Mia,Taylor,13,Physics,2,Teacher6,R4,T2
+10128,Wiremu,Ali,13,Calculus,3,Teacher27,R11,T4
+10245,Sam,Ngata,11,Economics,2,Teacher19,R7,T1
+10213,Liam,Wilson,12,Art,3,Teacher15,R1,T1
+10286,Isla,Kaur,11,Software Engineering,2,Teacher13,R9,T2
+10026,Mia,Thompson,12,Economics,2,Teacher10,R3,T3
+10088,Leo,Brown,11,Economics,2,Teacher30,R22,T4
+10061,Riley,Ali,11,Calculus,2,Teacher19,R24,T4
+10196,Sam,Patel,11,Economics,1,Teacher19,R24,T2
+10215,Chris,Patel,11,Software Engineering,2,Teacher17,R8,T4
+10128,Liam,Thompson,13,Art,1,Teacher1,R16,T2
+10166,Mia,Kaur,11,Art,3,Teacher28,R24,T3
+10038,Jordan,Williams,11,Software Engineering,2,Teacher16,R16,T3
+10311,Isla,Ali,13,Software Engineering,1,Teacher17,R17,T4
+10155,Mia,Kaur,12,Calculus,3,Teacher3,R19,T2
+10134,Chris,Williams,12,Physics,2,Teacher9,R3,T3
+10364,Wiremu,Patel,11,Physics,1,Teacher21,R2,T2
+10256,Casey,Ali,12,Art,2,Teacher17,R20,T3
+10265,Noah,Patel,11,Physics,3,Teacher32,R25,T2
+10285,Jack,Smith,11,Calculus,1,Teacher15,R6,T1
+10241,Casey,Wilson,13,Art,2,Teacher8,R16,T1
+10227,Liam,Ali,13,Art,2,Teacher32,R4,T2
+10064,Liam,Brown,11,Physics,1,Teacher11,R24,T3
+10289,Leo,Taylor,13,Software Engineering,3,Teacher12,R14,T1
+10127,Aroha,Kaur,11,Physics,1,Teacher19,R22,T1
+10202,Liam,Thompson,11,Physics,1,Teacher2,R3,T4
+10363,Aroha,Lee,13,Physics,3,Teacher1,R11,T1
+10336,Isla,Lee,12,Economics,1,Teacher14,R2,T3
+10166,Jamie,Ali,11,Economics,3,Teacher25,R3,T4
+10131,Chris,Taylor,12,Software Engineering,1,Teacher14,R6,T4
+10400,Mia,Ngata,13,Calculus,1,Teacher20,R16,T4
+10377,Avery,Kaur,13,Calculus,2,Teacher7,R12,T2
+10251,Jack,Patel,12,Physics,3,Teacher28,R3,T4
+10189,Isla,Wilson,12,Art,1,Teacher3,R17,T3
+10238,Riley,Kaur,13,Calculus,2,Teacher34,R21,T1
+10149,Jack,Patel,11,Art,2,Teacher10,R5,T3
+10128,Wiremu,Patel,12,Economics,1,Teacher5,R2,T1
+10262,Sophie,Patel,11,Art,3,Teacher17,R12,T3
+10300,Taylor,King,13,Software Engineering,1,Teacher30,R6,T2
+10202,Jamie,Brown,12,Physics,2,Teacher30,R25,T4
+10320,Casey,Chen,11,Calculus,1,Teacher6,R24,T3
+10345,Jordan,Patel,13,Software Engineering,1,Teacher26,R4,T1
+10088,Aroha,Lee,13,Art,3,Teacher32,R10,T3
+10354,Mia,King,12,Software Engineering,1,Teacher9,R1,T2
+10058,Alex,Ali,11,Software Engineering,1,Teacher31,R21,T2
+10333,Riley,Patel,13,Economics,1,Teacher6,R10,T4
+10076,Aroha,Patel,11,Software Engineering,1,Teacher10,R24,T4
+10249,Aroha,Smith,12,Economics,1,Teacher13,R10,T4
+10027,Noah,Smith,11,Art,2,Teacher32,R24,T3
+10019,Aroha,Patel,12,Economics,3,Teacher32,R8,T1
+10271,Alex,Patel,13,Physics,3,Teacher5,R9,T4
+10243,Jordan,Lee,13,Physics,2,Teacher28,R1,T2
+10148,Morgan,Lee,12,Art,1,Teacher33,R8,T3
+10309,Jack,Wilson,12,Art,2,Teacher24,R16,T2
+10319,Morgan,Ngata,13,Software Engineering,3,Teacher31,R5,T2
+10103,Chris,Thompson,12,Software Engineering,2,Teacher32,R10,T2
+10108,Hana,Smith,11,Physics,2,Teacher23,R22,T2
+10090,Wiremu,Smith,11,Physics,2,Teacher8,R20,T2
+10062,Hana,Taylor,12,Physics,2,Teacher23,R25,T1
+10395,Hana,Ngata,11,Economics,3,Teacher7,R23,T1
+10225,Jack,Scott,11,Software Engineering,3,Teacher7,R18,T1
+10260,Jordan,Wilson,13,Software Engineering,1,Teacher24,R6,T3
+10363,Jack,King,13,Art,3,Teacher7,R5,T3
+10172,Sam,Brown,11,Art,2,Teacher1,R8,T4
+10175,Avery,Williams,11,Software Engineering,2,Teacher24,R23,T4
+10185,Riley,Wilson,13,Art,1,Teacher9,R14,T4
+10210,Jack,Scott,13,Physics,1,Teacher29,R5,T1
+10368,Wiremu,Brown,11,Physics,2,Teacher26,R25,T2
+10223,Jamie,Patel,11,Calculus,3,Teacher4,R21,T3
