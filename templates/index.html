@@ -2,12 +2,14 @@
 <html>
     <head>
         <title>Retail Store</title>
+        <!-- link to style.css file to make it work -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     </head>
     <body>
         <h1>Product List</h1>
         <ul>
             {% for item in items %}
-            <li>{{ item[1] }}</li>
+            <li>{{ item[1] }}</li>      <!-- gets everything from the database table at once -->
             {% endfor %}
         </ul>
     </body>
