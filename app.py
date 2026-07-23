@@ -3,7 +3,7 @@ from flask import Flask, render_template, g
 
 app = Flask(__name__)
 
-DATABASE = 'retail_store.db'
+DATABASE = 'retail_orders.db'
 
 def get_db():
     db = getattr(g, '_database', None)
@@ -18,3 +18,6 @@ def home():
     cursor.execute('SELECT * FROM products')
     products = cursor.fetchall()
     return render_template('index.html', items=products)
+
+if __name__ == '__main__':
+    app.run(debug=True)
