@@ -6,6 +6,9 @@
         <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     </head>
     <body>
+        <!-- included reusable nav bar based on stakeholder feedback -->
+        {% include 'nav.html' %}
+
         <h1>Product List</h1>
         <ul>
             {% for item in items %}
