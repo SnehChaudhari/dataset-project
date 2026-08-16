@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Retail Store - Orders</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        {% include 'nav.html' %}
+
+        <h1>Customer Orders</h1>
+
+        <ul>
+            {% for order in orders %}
+            <li>Order ID: {{ order[0] }} | Date: {{ order[1] }} | Customer ID: {{ order[2] }} | Total: ${{ order[3] }}</li>
+            {% endfor %}
+        </ul>
+    </body>
+</html>

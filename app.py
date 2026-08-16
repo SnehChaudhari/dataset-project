@@ -32,6 +32,14 @@ def products():
     product_list = cursor.fetchall()
     return render_template('products.html', products=product_list)
 
+@app.route('/orders')
+def orders():
+    db = get_db()
+    cursor = db.cursor()
+    cursor.execute('SELECT * FROM orders')
+    orders_list = cursor.fetchall()
+    return render_template('orders.html', orders=orders_list)
+
 # run the local Flask development server in debug mode
 if __name__ == '__main__':
     app.run(debug=True)
