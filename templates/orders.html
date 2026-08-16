@@ -10,10 +10,25 @@
 
         <h1>Customer Orders</h1>
 
-        <ul>
-            {% for order in orders %}
-            <li>Order ID: {{ order[0] }} | Date: {{ order[1] }} | Customer ID: {{ order[2] }} | Total: ${{ order[3] }}</li>
-            {% endfor %}
-        </ul>
+        <table>
+            <thead>
+                <tr>
+                    <th>Order ID</th>
+                    <th>Order Date</th>
+                    <th>Customer ID</th>
+                    <th>Total Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for order in orders%}
+                <tr>
+                    <td>{{ order[0]}}</td>
+                    <td>{{ order[1]}}</td>
+                    <td>{{ order[2]}}</td>
+                    <td>{{ order[3]}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
     </body>
 </html>

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Retail Store</title>
+        <title>Retail Store - Home</title>
         <!-- link to style.css file to make it work -->
         <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
     </head>
@@ -9,11 +9,25 @@
         <!-- included reusable nav bar based on stakeholder feedback -->
         {% include 'nav.html' %}
 
-        <h1>Product List</h1>
-        <ul>
-            {% for item in items %}
-            <li>{{ item[1] }}</li>      <!-- gets everything from the database table at once -->
-            {% endfor %}
-        </ul>
+        <h1>Home Overview</h1>
+        <p>Welcome to the Retail Store management system.</p>
+        
+        <h2>Product Quick View</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product ID</th>
+                    <th>Product Name</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in items %}
+                <tr>
+                    <td>{{ item[0] }}</td>
+                    <td>{{ item[1] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
     </body>
 </html>
