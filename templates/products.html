@@ -11,6 +11,14 @@
 
         <h1>Product Inventory</h1>
 
+        <form action="/products" method="GET" class="search-form">
+            <input type="text" name="search" placeholder="Search products..." value="{{ search_query }}">
+            <button type="submit">Search</button>
+            {% if search_query %}
+                <a href="/products" class="'clear-btn">Clear</a>
+            {% endif %}
+        </form>
+
         <table>
             <thead>
                 <tr>
@@ -25,6 +33,10 @@
                     <td>{{ product[0] }}</td>
                     <td>{{ product[1] }}</td>
                     <td>${{ product[2] }}</td>
+                </tr>
+                {% else %}
+                <tr>
+                    <td colspan="3">No products found matching '{{ search_query }}'</td>
                 </tr>
                 {% endfor %}
             </tbody>

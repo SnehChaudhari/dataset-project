@@ -1,5 +1,5 @@
 import sqlite3
-from flask import Flask, render_template, g
+from flask import Flask, render_template, request, g
 
 # initialise the Flask application
 app = Flask(__name__)
@@ -26,11 +26,19 @@ def home():
 # products page route: fetches and displays all products
 @app.route('/products')
 def products():
+    search_query = request.args.get('search', '').strip()
     db = get_db()
     cursor = db.cursor()
-    cursor.execute('SELECT * FROM products')
+
+    if search_query:
+        # search for products matching user's input
+        cursor.execute('SELECT * FROM products WHERE product_name LIKE ?', ('%' + search_query + '%',))
+    else:
+        # return all products if no search term is provided
+        cursor.execute('SELECT * FROM products')
+
     product_list = cursor.fetchall()
-    return render_template('products.html', products=product_list)
+    return render_template('products.html', products=product_list, search_query=search_query)
 
 @app.route('/orders')
 def orders():
