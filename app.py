@@ -14,38 +14,38 @@ def get_db():
         db = g._database = sqlite3.connect(DATABASE)
     return db
 
+# helper function to query the database cleanly across all routes
+def query_db(query, args=(), one=False):
+    db = get_db()
+    cursor = db.cursor()
+    cursor.execute(query, args)
+    results = cursor.fetchall()
+    return (results[0] if results else None) if one else results
+
 # home page route: fetches all products from SQLite and renders index.html
 @app.route('/')
 def home():
-    db = get_db()
-    cursor = db.cursor()
-    cursor.execute('SELECT * FROM products')
-    products = cursor.fetchall()
-    return render_template('index.html', items=products)
+    items = query_db('SELECT * FROM products LIMIT 10')
+    return render_template('index.html', items=items)
 
 # products page route: fetches and displays all products
 @app.route('/products')
 def products():
     search_query = request.args.get('search', '').strip()
-    db = get_db()
-    cursor = db.cursor()
 
     if search_query:
         # search for products matching user's input
-        cursor.execute('SELECT * FROM products WHERE product_name LIKE ?', ('%' + search_query + '%',))
+        product_list = query_db('SELECT * FROM products WHERE product_name LIKE ?', ('%' + search_query + '%',))
     else:
         # return all products if no search term is provided
-        cursor.execute('SELECT * FROM products')
+        product_list=query_db('SELECT * FROM products')
 
-    product_list = cursor.fetchall()
     return render_template('products.html', products=product_list, search_query=search_query)
 
+# intentionally broken code to trigger 505 error
 @app.route('/orders')
 def orders():
-    db = get_db()
-    cursor = db.cursor()
-    cursor.execute('SELECT * FROM orders')
-    orders_list = cursor.fetchall()
+    orders_list = query_db('SELECT * FROM non_existent_table')
     return render_template('orders.html', orders=orders_list)
 
 # custom 404 error handler: catches invalid URLs and renders 404.html
@@ -53,6 +53,11 @@ def orders():
 def page_not_found(e):
     return render_template('404.html'), 404
 
-# run the local Flask development server in debug mode
+# custom 500 internal server error handler
+@app.errorhandler(500)
+def internal_server_error(e):
+    return render_template('500.html'), 500
+
+# turn off debug mode to make 500 error page functional
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
