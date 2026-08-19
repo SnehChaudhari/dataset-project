@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Retail Store - Order #{{ order[0] }}</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body>
+        {% include 'nav.html' %}
+
+        <h1>Order Breakdown #{{ order[0] }}</h1>
+
+        <div class="card">
+            <p><strong>Order Date:</strong> {{ order[1] }}</p>
+            <p><strong>Customer Name:</strong> {{ order[2] }}</p>
+            <p><strong>Customer Segment:</strong> {{ order[3] }}</p>
+        </div>
+
+        <h2>Purchased Line Items</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product Name</th>
+                    <th>Category</th>
+                    <th>Sales Amount</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in items %}
+                <tr>
+                    <td>{{ item[0] }}</td>
+                    <td>{{ item[1] }}</td>
+                    <td>${{ "%.2f"|format(item[2]) }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+
+        <p style="margin-top: 20px;">
+            <a href="{{ url_for('orders') }}" class="btn-home">Back to All Orders</a>
+        </p>
+    </body>
+</html>
