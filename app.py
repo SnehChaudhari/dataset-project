@@ -28,24 +28,54 @@ def home():
     items = query_db('SELECT * FROM products LIMIT 10')
     return render_template('index.html', items=items)
 
-# products page route: fetches and displays all products
+# products page route: joins products with orderdetails to calculate average price
 @app.route('/products')
 def products():
     search_query = request.args.get('search', '').strip()
 
     if search_query:
-        # search for products matching user's input
-        product_list = query_db('SELECT * FROM products WHERE product_name LIKE ?', ('%' + search_query + '%',))
+        # filter products matching user input while calculating aggregate price
+        query = """
+        SELECT
+            p.product_id,
+            p.product_name,
+            p.category,
+            ROUND(AVG(od.sales), 2) AS price
+        FROM products p
+        LEFT JOIN orderdetails od ON p.product_id = od.product_id
+        WHERE p.product_name LIKE ?
+        GROUP BY p.product_id, p.product_name, p.category;
+        """
+        product_list = query_db(query, ('%' + search_query + '%',))
     else:
-        # return all products if no search term is provided
-        product_list=query_db('SELECT * FROM products')
+        # return all products with calculated price if no search term is provided
+        query = """
+            SELECT
+                p.product_id,
+                p.product_name,
+                p.category,
+                ROUND(AVG(od.sales), 2) AS price
+            FROM products p
+            LEFT JOIN orderdetails od ON p.product_id = od.product_id
+            GROUP BY p.product_id, p.product_name, p.category;    
+        """
+        product_list = query_db(query)
+    return render_template('products.html', products=product_list)
 
-    return render_template('products.html', products=product_list, search_query=search_query)
-
-# intentionally broken code to trigger 505 error
+# orders page route: joins orders with orders_details to calculate total order amount
 @app.route('/orders')
 def orders():
-    orders_list = query_db('SELECT * FROM non_existent_table')
+    query = """
+        SELECT
+            o.order_id,
+            o.order_date,
+            o.customer_id,
+            ROUND(SUM(od.sales), 2) AS total_amount
+        FROM orders o
+        LEFT JOIN orderdetails od ON o.order_id = od.order_id
+        GROUP BY o.order_id, o.order_date, o.customer_id;
+    """
+    orders_list = query_db(query)
     return render_template('orders.html', orders=orders_list)
 
 # custom 404 error handler: catches invalid URLs and renders 404.html
@@ -58,6 +88,6 @@ def page_not_found(e):
 def internal_server_error(e):
     return render_template('500.html'), 500
 
-# turn off debug mode to make 500 error page functional
+# run the local Flask development server in debug mode
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run(debug=True)
