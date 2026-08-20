@@ -27,7 +27,7 @@
                     <td>{{ order[1]}}</td>
                     <td>{{ order[2]}}</td>
                     <td>${{ "%.2f"|format(order[3])}}</td>
-                    <td><a href="{{ url_for('order_details', order_id=order[0]) }}">View Items</a></td>
+                    <td><a href="{{ url_for('order_details', order_id=order[0]) }}" class="btn-action">View Items</a></td>
                 </tr>
                 {% endfor %}
             </tbody>

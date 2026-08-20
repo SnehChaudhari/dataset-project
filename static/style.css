@@ -4,3 +4,118 @@ body {
     background-color: #2a2a2a;      /* dark background colour */
     color: #ffffff;
 }
+
+/* styling for 404 return home button */
+.btn-home {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #00adb5;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.btn-home:hover {
+    background-color: #00888e;
+}
+
+/* table layout styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #444;
+}
+
+th {
+    background-color: #1a1a1a;
+    color: #00adb5;
+    font-size: 1.05rem;
+}
+
+tr:hover {
+    background-color: #222;
+}
+
+/* search form component */
+.search-form {
+    margin-bottom: 20px;
+}
+
+.search-form input[type='text'] {
+    padding: 8px 12px;
+    font-size: 1rem;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #2a2a2a;
+    color: #ffffff;
+    width: 250px;
+}
+
+.search-form button {
+    padding: 8px 15px;
+    background-color: #00adb5;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.search-form button:hover{
+    background-color: #00888e;
+}
+
+.clear-btn {
+    margin-left: 10px;
+    color: #aaa;
+    text-decoration: none;
+}
+
+/* navigation bar buttons */
+nav {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.nav-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #1a1a1a;
+    color: #00adb5;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    border: 1px solid #00adb5;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.nav-btn:hover {
+    background-color: #00adb5;
+    color: #ffffff;
+}
+
+/* table action buttons */
+.btn-action {
+    display: inline-block;
+    padding: 6px 12px;
+    background-color: #00adb5;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+.btn-action:hover {
+    background-color: #00888e;
+}
